@@ -1,6 +1,7 @@
 {
   "content_scripts": [
     {
+      "run_at": "document_start",
       "css": [
         "linkedin-feed-blocker.css"
       ],
