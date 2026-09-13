@@ -1,8 +1,8 @@
-.feed-new-update-pill__new-update-button,
+[data-testid="mainFeed"],
 .feed-right-rail,
-.feed-shared-update-v2,
-.nav-item__badge--doughnut,
+aside.scaffold-layout__aside,
 .feed-shared-news-module,
-.feed-follows-module {
+.feed-follows-module,
+.feed-new-update-pill__new-update-button {
 	display: none !important;
 }
