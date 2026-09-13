@@ -1,8 +1,4 @@
 [data-testid="mainFeed"],
-.feed-right-rail,
-aside.scaffold-layout__aside,
-.feed-shared-news-module,
-.feed-follows-module,
-.feed-new-update-pill__new-update-button {
+body:has([data-testid="mainFeed"]) aside[aria-label="Aside"] {
 	display: none !important;
 }
